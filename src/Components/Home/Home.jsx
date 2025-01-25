@@ -141,6 +141,9 @@ const Home = ({isAuthenticated, setIsAuthenticated}) => {
 
   useEffect(() => {
     if(!localStorage.getItem("userEmail")){
+      const dat=localStorage.getItem('userEmail')
+      console.log(dat);
+      
       setIsAuthenticated(false);
       navigator('/signin')
     }
