@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { TextField, Button, Typography, Box, Paper, Link as MuiLink } from "@mui/material";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
@@ -37,6 +37,12 @@ console.log(data);
       setError("An unexpected error occurred. Please try again.");
     }
   };
+
+  useEffect(()=>{
+    if(localStorage.getItem('userEmail')){
+      navigate('/home')
+    }
+  },[])
 
   return (
     <Box
