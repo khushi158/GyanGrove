@@ -5,6 +5,7 @@ import Signup from "./Components/Authentication/Signup";
 import Home from "./Components/Home/Home";
 import Navbar from "./Components/NavBar";
 
+
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
 
@@ -15,15 +16,15 @@ function App() {
 
   return (
     <div>
-      {window.location.pathname !== '/signin' && 
-       window.location.pathname !== '/signup' && 
-       localStorage.getItem('userEmail') && 
-       <Navbar isAuthenticated={isAuthenticated} setIsAuthenticated={setIsAuthenticated}/>}
-      
+         {localStorage.getItem('userEmail') && <Navbar isAuthenticated={isAuthenticated} setIsAuthenticated={setIsAuthenticated}/>}
       <Routes>
-        <Route path="/home" element={<Home isAuthenticated={isAuthenticated} setIsAuthenticated={setIsAuthenticated}/>} />
-        <Route path="/signin" element={<Signin isAuthenticated={isAuthenticated} setIsAuthenticated={setIsAuthenticated}/>} />
-        <Route path="/signup" element={<Signup />} />
+ 
+            <Route path="/home" element={<Home isAuthenticated={isAuthenticated} setIsAuthenticated={setIsAuthenticated}/>} />
+          
+       
+            <Route path="/signin" element={<Signin isAuthenticated={isAuthenticated} setIsAuthenticated={setIsAuthenticated}/>} />
+            <Route path="/signup" element={<Signup />} />
+        
       </Routes>
     </div>
   );
