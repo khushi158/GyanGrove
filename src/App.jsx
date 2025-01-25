@@ -4,6 +4,8 @@ import Signin from "./Components/Authentication/Signin";
 import Signup from "./Components/Authentication/Signup";
 import Home from "./Components/Home/Home";
 import Navbar from "./Components/NavBar";
+import RootRedirect from "./Components/RootRedirect";
+
 
 
 function App() {
@@ -20,8 +22,8 @@ function App() {
       <Routes>
  
             <Route path="/home" element={<Home isAuthenticated={isAuthenticated} setIsAuthenticated={setIsAuthenticated}/>} />
-          
-       
+            <Route path="/" element={<RootRedirect/>} />
+            
             <Route path="/signin" element={<Signin isAuthenticated={isAuthenticated} setIsAuthenticated={setIsAuthenticated}/>} />
             <Route path="/signup" element={<Signup />} />
         
