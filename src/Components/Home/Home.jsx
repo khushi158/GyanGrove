@@ -114,7 +114,9 @@ const Home = ({isAuthenticated, setIsAuthenticated}) => {
         console.error("No email found in localStorage")
         return
       }
-
+      fetchLowStockItems()
+      console.log(lowStockItems);
+      
       const response = await fetch("https://lowstock.khushibanchhor21.workers.dev/", {
         method: "POST",
         headers: {
