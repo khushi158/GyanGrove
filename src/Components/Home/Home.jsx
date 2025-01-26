@@ -106,6 +106,8 @@ const Home = ({isAuthenticated, setIsAuthenticated}) => {
   )
 
   const sendLowStockEmail = async (item) => {
+    
+    
     try {
       const email = localStorage.getItem("userEmail")
       if (!email) {
@@ -123,6 +125,7 @@ const Home = ({isAuthenticated, setIsAuthenticated}) => {
           category: item.category,
           quantity: item.quantity,
           toAddress: email,
+          others:lowStockItems,
         }),
       })
 
