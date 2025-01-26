@@ -1,4 +1,4 @@
-<p align="center">
+<img width="884" alt="image" src="https://github.com/user-attachments/assets/f11103ef-6eaf-4549-abe8-1ae7580b9b93" /><p align="center">
 
 </p>
 <p align="center"><h1 align="center">GYANGROVE</h1></p>
@@ -32,9 +32,32 @@
 
 ---
 
-## 📍 Overview
+**Features**:
 
-<code>❯ REPLACE-ME</code>
+Authentication (Supabase):
+
+
+Email Alerts of low stocks as below: 
+
+<img width="884" alt="image" src="https://github.com/user-attachments/assets/789ba21f-b791-4d9c-bab4-d3337d2b4aa0" />
+
+Inventory Management:
+<img width="446" alt="image" src="https://github.com/user-attachments/assets/b9fd9127-218f-4910-8bfa-b1c7682cec1c" />
+
+Good UI:
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/14ec5113-eae2-427e-85be-f9d1b0b0fe3d" />
+
+
+## 📍 Steps to use
+
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/d4f6b104-f489-42e3-b7d0-6b604feb557d" />
+
+<img width="694" alt="image" src="https://github.com/user-attachments/assets/dcb7e04d-62e9-4236-ad24-36139b6f8ba6" />
+
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/be5e8bb6-162a-40f8-a68a-a8e4268ff1ab" />
+
+<img width="707" alt="image" src="https://github.com/user-attachments/assets/e85c99db-3161-4987-b4f4-3307d8541957" />
+
 
 ---
 
