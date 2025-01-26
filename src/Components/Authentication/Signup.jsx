@@ -26,7 +26,7 @@ const Signup = () => {
       }
 
       setSuccess(true);
-      alert('Signup successful! Please check your email for confirmation.');
+   
     } catch (error) {
       setError(error.message);
     } finally {
