@@ -140,23 +140,9 @@ GyanGrove/
 └── vite.config.js
 ```
 
-## 🤝 Contributing
 
-We welcome contributions to GyanGrove! Here's how you can help:
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-<p align="center">Built with ❤️ by the GyanGrove Team</p>
+<p align="center">Built with ❤️ by the KHUSHNIMA</p>
 
 <p align="center">
   <a href="https://github.com/khushi158/GyanGrove/graphs/contributors">
