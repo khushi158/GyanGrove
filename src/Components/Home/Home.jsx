@@ -88,8 +88,9 @@ const Home = ({isAuthenticated, setIsAuthenticated}) => {
         }
 
         if (data && data[0] && emailNotificationsEnabled) {
-          
-         sendLowStockEmail(data[0])
+          fetchLowStockItems()
+
+         sendLowStockEmail(data[0],lowStockItems)
         }
 
       } else {
@@ -105,16 +106,16 @@ const Home = ({isAuthenticated, setIsAuthenticated}) => {
     [fetchLowStockItems, emailNotificationsEnabled],
   )
 
-  const sendLowStockEmail = async (item) => {
+  const sendLowStockEmail = async (item,others) => {
     
-    
+    fetchLowStockItems()
     try {
       const email = localStorage.getItem("userEmail")
       if (!email) {
         console.error("No email found in localStorage")
         return
       }
-      fetchLowStockItems()
+     
       console.log(lowStockItems);
       
       const response = await fetch("https://lowstock.khushibanchhor21.workers.dev/", {
@@ -127,7 +128,7 @@ const Home = ({isAuthenticated, setIsAuthenticated}) => {
           category: item.category,
           quantity: item.quantity,
           toAddress: email,
-          others:lowStockItems,
+          others:others,
         }),
       })
 
