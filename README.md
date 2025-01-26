@@ -40,7 +40,44 @@
 
 ## 👾 Features
 
-<code>❯ REPLACE-ME</code>
+<code>Inventory Management
+
+
+Real-time tracking of inventory items
+Detailed item information management
+Add, edit, and monitor stock levels
+
+
+Low Stock Alerting System
+
+
+Automated email notifications for low-stock items
+Customizable alert thresholds
+Detailed email alerts with item specifics and random humorous GIFs
+
+
+User Authentication
+
+
+Secure signup and signin processes
+Protected routes for inventory management
+User-specific inventory access
+
+
+Responsive Web Interface
+
+
+Intuitive dashboard
+Interactive inventory table
+Modern, user-friendly design
+
+
+Advanced Monitoring
+
+
+Quantity tracking
+Category-based organization
+Instant low-stock detection and reporting</code>
 
 ---
 
