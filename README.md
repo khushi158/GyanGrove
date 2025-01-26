@@ -59,7 +59,7 @@ GyanGrove is a modern, user-friendly inventory management system that helps busi
 - **Frontend**: React.js, Vite
 - **Backend**: Supabase
 - **Authentication**: Supabase Auth
-- **Styling**: Tailwind CSS
+- **Styling**: mui
 - **Deployment**: Vercel
 
 ## 📸 Screenshots
