@@ -88,10 +88,10 @@ const Home = ({isAuthenticated, setIsAuthenticated}) => {
         }
 
         if (data && data[0] && emailNotificationsEnabled) {
-          sendLowStockEmail(data[0])
+          
+         sendLowStockEmail(data[0])
         }
 
-        fetchLowStockItems()
       } else {
         const { error } = await supabase.from("Lowstock").delete().match({ id: item.id })
 
